@@ -1,0 +1,12 @@
+/* Estilos complementarios mínimos (podés personalizar) */
+:root{
+--accent: #0d6efd;
+}
+body{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+.card .product-img{height:160px;background:#fff;display:flex;align-items:center;justify-content:center;border-radius:6px}
+.product-title{font-size:0.95rem;font-weight:600}
+.product-desc{font-size:0.85rem;color:#6c757d}
+/* pequeño ajuste responsive */
+@media (max-width:992px){
+#catalogo-productos .col-md-6{flex:0 0 50%;max-width:50%;}
+}
